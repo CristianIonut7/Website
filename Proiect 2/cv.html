@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Pleseanu Cristian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CV - Pleseanu Cristian</h1>
+        <div class="burger-menu" id="burger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+            <a href="portofolio.html">Portofolio</a>
+        </nav>
+        <img src="utils/images/logo.png" alt="Pleseanu Cristian Logo" class="nav-logo">
+    </header>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>I am a second-year student at Politehnica University of Bucharest, Faculty of Automatic Control 
+            and Computer Science. Originally from Craiova, Dolj, I am passionate about technology, football, gaming, 
+            and esports. I consider myself an analytical, optimistic person with a strong sense of humor.</p>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Polytechnic University of Bucharest</strong> - Second-year student at Faculty of Automatic Control and Computer Science</li>
+                <li><strong>Theoretical High School</strong> - Graduate of "Fratii Buzesti" National College, Craiova, Dolj</li>
+                <li><strong>Digital Competency Certification</strong> - Website development</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Foundations:</strong> Solid understanding of coding principles, especially in computer science fundamentals. Programming languages:
+                    <ul>
+                        <li>C/C++</li>
+                        <li>Python</li>
+                        <li>Java/Kotlin</li>
+                        <li>Bash</li>
+                    </ul>
+                </li>
+                <li><strong>Languages:</strong>
+                    <ul>
+                        <li>Romanian (Native)</li>
+                        <li>English (Fluent)</li>
+                        <li>Finnish (Beginner)</li>
+                    </ul>
+                </li>
+                <li><strong>Exceptional Digital Skills:</strong> Proficient in digital tools and platforms</li>
+                <li><strong>GitHub Knowledge:</strong> Experience in using GitHub for version control and collaborative coding</li>
+                <li><strong>Terminal Proficiency:</strong> Experience working with the command line for system navigation and tasks</li>
+                <li><strong>Analytical Thinking:</strong> Ability to evaluate multiple scenarios and predict various outcomes</li>
+                <li><strong>Attention to Detail:</strong> A meticulous eye for details, ensuring accuracy in tasks and assignments</li>
+                <li><strong>Quick Learner:</strong> Ability to grasp new concepts efficiently, especially in technical fields</li>
+            </ul>
+        </section>
+            <section>
+                <h2>Download CV</h2>
+            <p><a href="cv.html" download="CV_Pleseanu_Cristian.html" class="cv-download">Download CV (HTML Format)</a></p>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="https://www.facebook.com/ionutcristian.pleseanu/" target="_blank">Facebook</a>
+            <a href="https://x.com/kWert06854957" target="_blank">Twitter/X</a>
+            <a href="mailto:cristian.pleseanu05@gmail.com">Email</a>
+        </div>
+        <p>&copy; 2024 Pleseanu Cristian</p>
+    </footer>
+
+    <script>
+        const burgerMenu = document.getElementById('burger-menu');
+        const navbar = document.getElementById('navbar');
+
+        burgerMenu.addEventListener('click', () => {
+            navbar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

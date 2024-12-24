@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portofolio</h1>
+        <div class="burger-menu" id="burger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+            <a href="portofolio.html">Portofolio</a>
+        </nav>
+        <img src="utils/images/logo.png" alt="Pleseanu Cristian Logo" class="nav-logo">
+    </header>
+
+    <main>
+        <section>
+            <h2>My Projects</h2>
+            <div class="portofolio-container">
+                <div class="portofolio-item">
+                    <img src="utils/images/hangman.png" alt="Project Photo">
+                    <h3>Hangman</h3>
+                    <p>The hangman game based on circular economy domain in the european project "Gender, Digitalization, Green: Ensuring a Sustainable Future 
+                        for all in Europe"</p>
+                    <a href="https://github.com/andrewen11/Hangman">Learn More</a>
+                </div>
+                <div class="portofolio-item">
+                    <img src="utils/images/atestat.png" alt="Project Photo">
+                    <h3>The 7 wonders website</h3>
+                    <p>My website for digital competency certification: "Cele 7 minuni ale lumii"(The 7 wonders of the world)</p>
+                    <a href="utils/atestat.rar" download="The_7_wonders_of_the_world.rar">Learn More[Download]</a>
+                </div>
+                <div class="portofolio-item">
+                    <img src="utils/images/malloc.png" alt="Project Photo">
+                    <h3>Personal Memory Allocator</h3>
+                    <p>My own implemantation of the functions malloc, calloc, realloc and free</p>
+                    <a href="https://github.com/CristianIonut7/My-own-memory-allocator">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://www.facebook.com/ionutcristian.pleseanu/" target="_blank">Facebook</a>
+            <a href="https://x.com/kWert06854957" target="_blank">Twitter/X</a>
+            <a href="mailto:cristian.pleseanu05@gmail.com">Email</a>
+        </div>
+        <p>&copy; 2024 Pleseanu Cristian</p>
+    </footer>
+
+    <script>
+        const burgerMenu = document.getElementById('burger-menu');
+        const navbar = document.getElementById('navbar');
+
+        burgerMenu.addEventListener('click', () => {
+            navbar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

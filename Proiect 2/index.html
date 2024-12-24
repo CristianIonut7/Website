@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Pleseanu Cristian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Overview</h1>
+        
+        <div class="burger-menu" id="burger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+            <a href="portofolio.html">Portofolio</a>
+        </nav>
+        
+        <img src="utils/images/logo.png" alt="Pleseanu Cristian Logo" class="nav-logo">
+    </header>
+
+    <main>
+        <section>
+            <img src="utils/images/index.jpg" alt="Profile Picture" width="200">
+            <h2>About Me</h2>
+            <p>Hailing from Craiova, Dolj, I’m a second-year student at Polytechnic University of Bucharest, 
+               Faculty of Automatic Control and Computer Science. Outside of academics, I’m passionate about 
+               football, gaming, and esports, with a deep interest in technology. Known for my optimistic outlook 
+               and humor, I enjoy bringing a good laugh to those around me, even during tough times.</p>
+        </section>  
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://www.facebook.com/ionutcristian.pleseanu/" target="_blank">Facebook</a>
+            <a href="https://x.com/kWert06854957" target="_blank">Twitter/X</a>
+            <a href="mailto:cristian.pleseanu05@gmail.com">Email</a>
+        </div>
+        <p>&copy; 2024 Pleseanu Cristian</p>
+    </footer>
+
+    <script>
+        const burgerMenu = document.getElementById('burger-menu');
+        const navbar = document.getElementById('navbar');
+
+        burgerMenu.addEventListener('click', () => {
+            navbar.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
